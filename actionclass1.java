@@ -19,7 +19,7 @@ public class actionclass1
       Actions a1=new Actions(driver);
       WebElement user = driver.findElement(By.id("user-name"));
       Thread.sleep(1000);
-      WebElement psw=driver.findElement(Bhttps://github.com/Priya-Ketan-Chaudhari/Actionclass.gity.id("password"));
+      WebElement psw=driver.findElement(By.id("password"));
       Thread.sleep(1000);
       WebElement login =driver.findElement(By.id("login-button"));
       Thread.sleep(1000);
